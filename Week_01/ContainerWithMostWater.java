@@ -18,7 +18,7 @@ public class ContainerWithMostWater {
      * 时间复杂度：O(n)
      * 空间复杂度：O(1)
      */
-    public int maxArea(int[] height) {
+    public int maxArea1(int[] height) {
 
         int p = 0;
         int r = height.length - 1;
@@ -42,7 +42,7 @@ public class ContainerWithMostWater {
      * 时间复杂度：O(n^2)
      * 空间复杂度：O(1)
      */
-    public int maxArea1(int[] height) {
+    public int maxArea(int[] height) {
 
         int length = height.length;
         int max = 0;
