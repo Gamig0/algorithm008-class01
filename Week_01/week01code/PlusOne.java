@@ -1,19 +1,21 @@
-package week01;
+package week01code;
 
 /**
- * @Author Gamigo
- * @Date 2020-04-14 11:00
- * @Version 1.0
- * @Description 66.加一
+ * 66.加一
+ * @author Gamigo
+ * @date 2020-04-14 11:00
+ * @version 1.0
  */
 public class PlusOne {
 
     /**
-     * @Author Gamigo
-     * @Date 2020-04-14 11:16
-     * @Param digits
-     * @Return int[]
-     * @Description 循环无进位直接返回，中途不返回新建数组设置首元素为1。
+     * 方法二：循环无进位直接返回，中途不返回新建数组设置首元素为1。
+     * 时间复杂度：O(n)
+     * 空间复杂度：O(n)
+     * @author Gamigo
+     * @date 2020-04-14 11:16
+     * @param digits
+     * @return int[]
      */
     public int[] plusOne1(int[] digits) {
         // 末位+1，没有进位直接退出。
@@ -31,11 +33,13 @@ public class PlusOne {
     }
 
     /**
-     * @Author Gamigo
-     * @Date 2020-04-14 20:02
-     * @Param digits
-     * @Return int[]
-     * @Description 先+1，最高位进位复制到新数组。
+     * 方法一：先+1，最高位进位复制到新数组。
+     * 时间复杂度：O(n)
+     * 空间复杂度：O(n)
+     * @author Gamigo
+     * @date 2020-04-14 20:02
+     * @param digits
+     * @return int[]
      */
     public int[] plusOne(int[] digits) {
 

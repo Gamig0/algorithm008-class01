@@ -1,22 +1,23 @@
-package week01;
+package week01code;
 
 /**
- * @Author Gamigo
- * @Date 2020-04-13 15:16
- * @Version 1.0
- * @Description leetcode-cn 11.盛最多水的容器
+ * 11.盛最多水的容器
+ * @author Gamigo
+ * @date 2020-04-13 15:16
+ * @version 1.0
  */
 public class ContainerWithMostWater {
 
     /**
-     * @Author Gamigo
-     * @Date 2020-04-13 15:30
-     * @Param height
-     * @Return int
-     * @Description 方法2：使用两个指针分别数组的首尾向中间移动
-     * 每次移动数值较小的指针。双指针一定会经过最优解。
+     * 方法二：双指针
+     * 两指针分别从数组首尾向中间遍历，每次移动数值较小的指针，
+     * 双指针方法一定会经过最优解。
      * 时间复杂度：O(n)
      * 空间复杂度：O(1)
+     * @author Gamigo
+     * @date 2020-04-18 17:05
+     * @param height
+     * @return int
      */
     public int maxArea1(int[] height) {
 
@@ -34,13 +35,13 @@ public class ContainerWithMostWater {
     }
 
     /**
-     * @Author Gamigo
-     * @Date 2020-04-13 15:55
-     * @Param height
-     * @Return int
-     * @Description 方法1：暴力求解。
+     * 方法一：暴力求解
      * 时间复杂度：O(n^2)
      * 空间复杂度：O(1)
+     * @author Gamigo
+     * @date 2020-04-18 17:07
+     * @param height
+     * @return int
      */
     public int maxArea(int[] height) {
 

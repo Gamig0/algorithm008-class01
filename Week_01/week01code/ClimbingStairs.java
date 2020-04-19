@@ -1,20 +1,20 @@
-package week01;
+package week01code;
 
 /**
- * @Author Gamigo
- * @Date 2020-04-15 09:01
- * @Version 1.0
- * @Description 70.爬楼梯
+ * 70.爬楼梯
+ * @author Gamigo
+ * @date 2020-04-15 09:01
+ * @version 1.0
  */
 public class ClimbingStairs {
 
     /**
-     * @Author Gamigo
-     * @Date 2020-04-15 09:08
-     * @Param n
-     * @Return int
-     * @Description 方法二：3个变量存储数据，
+     * 方法二：3个变量存储数据，
      * 注：题目中说明n为正整数，所以不考虑0
+     * @author Gamigo
+     * @date 2020-04-15 09:08
+     * @param n
+     * @return int
      */
     public int climbStairs1(int n) {
         if (n < 3) {
@@ -33,11 +33,26 @@ public class ClimbingStairs {
     }
 
     /**
-     * @Author Gamigo
-     * @Date 2020-04-15 09:06
-     * @Param n
-     * @Return int
-     * @Description 方法一：数组存放数据，循环求解。
+     * 方法同上。
+     */
+    public int climbStairs01(int n) {
+        int i = 0, j = 1, k = 1;
+        while (n > 0) {
+            k = i + j;
+            i = j;
+            j = k;
+            n--;
+        }
+        // 题目中明确给出n为正整数
+        return k;
+    }
+
+    /**
+     * 方法一：数组存放数据，循环求解。
+     * @author Gamigo
+     * @date 2020-04-15 09:06
+     * @param n
+     * @return int
      */
     public int climbStairs(int n) {
         if (n < 3) {
@@ -54,12 +69,14 @@ public class ClimbingStairs {
     }
 
     /**
-     * @Author Gamigo
-     * @Date 2020-04-15 09:13
-     * @Param n
-     * @Return int
-     * @Description 返回值为int所以n一定小于46，直接枚举出所有结果。。
+     * 方法零：纯暴力求解
+     * 返回值为int所以n一定小于46，直接枚举出所有结果。。
      * 这真的是一个好方法么？
+     * 小魔王回答：竞赛可以用。其余情况别用。
+     * @author Gamigo
+     * @date 2020-04-15 09:13
+     * @param n
+     * @return int
      */
     public int climbStairs0(int n) {
 

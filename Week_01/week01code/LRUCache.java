@@ -1,19 +1,25 @@
-package week01;
+package week01code;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * @Author Gamigo
- * @Date 2020-04-14 09:50
- * @Version 1.0
- * @Description 146.LRU缓存机制
- * 单纯的看题解和调用类库完成，几乎没有理解。
+ * 146.LRU缓存机制
+ * @author Gamigo
+ * @date 2020-04-14 09:50
+ * @version 1.0
  */
 public class LRUCache extends LinkedHashMap<Integer, Integer> {
 
     private int capacity;
 
+    /**
+     * 单纯的看题解和调用类库完成，几乎没有理解。
+     * @author Gamigo
+     * @date 2020-04-18 17:50
+     * @param capacity
+     * @return
+     */
     public LRUCache(int capacity) {
         super(capacity, 0.75F, true);
         this.capacity = capacity;
