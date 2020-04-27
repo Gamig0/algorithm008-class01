@@ -1,25 +1,96 @@
-# 极客大学「算法训练营-第8期」作业提交仓库
+# 极客大学「算法训练营-第8期」
+
+----------------------------
+
+**目标：收割 offer**
+
+## 如何精通一个领域？
+
+* Chunk it up 切碎知识点
+* Deliberate Practicing 刻意练习
+* Feedback 反馈
 
 
-## 讲师课件下载地址
 
-请大家通过该链接查看讲师课件并进行下载，链接:https://pan.baidu.com/s/1DM7UAhSYs3Im_t2ayiAAXQ  密码:9fct
+## 数据结构与算法的主要内容
+
+### 数据结构
+
+#### 一维
+
+* 基础：数组 array (string), 链表 linked list
+* 高级：栈 stack, 队列 queue, 双端队列 deque, 集合 set, 映射 map (hash or map), etc.
+
+#### 二维
+
+* 基础：树 tree, 图
+* 高级：二叉搜索树 binary search tree (red-black tree, AVL), 堆 heap, 并查集 disjoint set, 字典树 Trie, etc.
+
+#### 特殊
+
+* 位运算 Bitwise, 布隆过滤器 BloomFilter
+* LRU Cache
+* 
+
+### 算法
+
+* if-else, switch->branch
+* for, while loop->Iteration
+* 递归 Recursion (Divide & Conquer, Backtrace)
+* 搜索 Search: 深度优先搜索 Depth first search, 广度优先搜索 Breadth first search, A*, etc
+* 动态规划 Dynamic Programming
+* 二分查找 Binary Search
+* 贪心 Greedy
+* 数学 Math, 几何 Geometry
+
+重点在于理解算法思想，代码模板。
 
 
-## 仓库目录结构说明
 
-1. `week01/` 代表第一周作业提交目录，以此类推。
-2. 请在对应周的目录下新建或修改自己的代码作业。
-2. 每周均有一个 `NOTE.md` 文档，你可以将自己当周的学习心得以及做题过程中的思考记录在该文档中。
+## 刻意练习方法
 
-## 作业提交规则
- 
-1. 先将本仓库 Fork 到自己 GitHub 账号下。
-2. 将 Fork 后的仓库 Clone 到本地，然后在本地仓库中对应周的目录下新建或修改自己的代码作业，当周的学习总结写在对应周的NOTE.md文件里。
-3. 在本地仓库完成作业后，push 到自己的 GitHub 远程仓库。
-4. 最后将远程仓库中当周的作业链接，按格式贴到班级仓库对应学习周的issue下面。
-5. 提交issue请务必按照规定格式进行提交，否则作业统计工具将抓取不到你的作业提交记录。 
+### 四步切题
+
+* Clarification
+* Possible solution（尽可能的想出所有的解法）
+  * compare (time/space)
+  * optimal (加强)
+* Coding（多写）
+* Test cases（边界条件检测）
 
 
-## 注意事项
- 如果对 Git 和 GitHub 不太了解，请参考 [Git 官方文档](https://git-scm.com/book/zh/v2) 或者极客时间的[《玩转 Git 三剑客》](https://time.geekbang.org/course/intro/145)视频课程。
+
+### 五毒神掌
+
+1. 5 ~ 10 分钟审题，不超过15分钟。
+2. 尽可能的想出所有解法，会解题直接解，**不会直接看思路**，理解。刷第一遍
+3. 把题解的细节看明白，理解了之后自己手再写一遍。刷第二遍
+4. 第二天，再手写一遍。刷第三遍
+5. 下一周，再手写一边。刷第四遍
+6. 面试前，再复习一遍。刷第五遍。
+
+刷题切忌做不出来一直做，毫无头绪的闷头做只会消耗积极性并打消兴趣。
+
+**切忌一道题只做一遍**
+
+## 准备
+
+工欲善其事，必先利其器。
+
+时间复杂度分析
+
+知乎文章：[如何理解算法时间复杂度的表示法](https://www.zhihu.com/question/21387264)
+
+
+
+## 主要内容
+
+| 课   | 主要内容           | 笔记 |
+| :--- | ------------------ | :--- |
+|      | 数组、链表、跳表   |      |
+|      | 栈、队列           |      |
+|      | 哈希表、映射、集合 |      |
+|      |                    |      |
+
+
+
