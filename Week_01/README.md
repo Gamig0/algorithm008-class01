@@ -1,10 +1,12 @@
 # Week01 学习笔记
 
-**每日一题**
+👉 [**week 01 code**](https://github.com/Gamig0/algorithm008-class01/tree/master/Week_01/week01code)
+
+👉 [**每日一题**](https://github.com/Gamig0/algorithm008-class01/tree/master/Week_01/week01code/daily)
 
 
 
-### 时间复杂度对比
+### 数组和链表时间复杂度对比
 
 | 操作    | 数组 | 链表 |
 | ------- | ---- | ---- |
@@ -13,40 +15,6 @@
 | lookup  | O(1) | O(n) |
 | insert  | O(n) | O(1) |
 | delete  | O(n) | O(1) |
-
-
-
-
-
-## 第 3 课-数组、链表、跳表
-
-| 序号 | 题目                                                         | 知识点          | 状态/题解 |
-| ---- | ------------------------------------------------------------ | --------------- | --------- |
-| 283  | [283. 移动零](https://leetcode-cn.com/problems/move-zeroes/) | 循环不变式/交换 | 完成      |
-| 11   | [11. 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) |                 | 完成      |
-| 70   | [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) |                 | 完成      |
-| 15   | [15. 三数之和](https://leetcode-cn.com/problems/3sum/)       |                 | 完成      |
-| 141  | [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) |                 |           |
-| 189  | [189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/) |                 | 完成      |
-| 21   | 合并两个有序链表                                             |                 |           |
-| 88   | 合并两个有序数组                                             |                 |           |
-| 1    | 两数之和                                                     |                 |           |
-| 66   | 加一                                                         |                 |           |
-| 146  | [LRU缓存机制](https://github.com/MelodyI/algorithm008-class01/blob/master/Week_01/lruCache) | 跳表            | 完成      |
-
-
-
-## 第 4 课-栈、队列、优先队列、双端队列
-
-| 序号 | 难度 | 题目                                                         | 栈   | 双端队列 | 状态 |
-| ---- | ---- | ------------------------------------------------------------ | ---- | -------- | ---- |
-| 20   | 简单 | [有效的括号](https://github.com/MelodyI/algorithm008-class01/blob/master/Week_01/validParentheses) | X    |          | 完成 |
-| 155  | 简单 | [最小栈](https://github.com/MelodyI/algorithm008-class01/blob/master/Week_01/minStack) | X    |          | 完成 |
-| 84   | 简单 | [柱状图中最大的矩形](https://github.com/MelodyI/algorithm008-class01/blob/master/Week_01/largestRectangleArea) | X    |          | 完成 |
-| 239  | 困难 | [滑动窗口最大值](https://github.com/MelodyI/algorithm008-class01/blob/master/Week_01/maxSlidingWindow) |      | X        | 完成 |
-| 26   | 简单 | [删除排序数组中的重复项](https://github.com/MelodyI/algorithm008-class01/blob/master/Week_01/removeDuplicates) |      | X        | 完成 |
-| 42   | 困难 | 接雨水                                                       | X    |          |      |
-| 1641 | 中等 | 设计循环双端队列                                             |      | X        |      |
 
 
 
