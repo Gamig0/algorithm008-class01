@@ -1,8 +1,8 @@
 # Week 04 学习笔记
 
-👉 week 01 code
+👉 week 01 [code](https://github.com/Gamig0/algorithm008-class01/tree/master/Week_04/week04code)
 
-👉 每日一题
+👉 [每日一题](https://github.com/Gamig0/algorithm008-class01/tree/master/Week_04/week04code/daily)
 
 ## DFS & BFS
 
@@ -12,9 +12,9 @@
 
 不论是 DFS 还是 BFS 再遍历图结构是要使用 Set 集合保证每个节点只遍历一次
 
-**DFS代码模版**
+[**DFS代码模版**](https://github.com/Gamig0/algorithm008-class01/blob/master/Week_04/DFS%20%E4%BB%A3%E7%A0%81%E6%A8%A1%E7%89%88.md)
 
-**BFS代码模版**
+[**BFS代码模版**](https://github.com/Gamig0/algorithm008-class01/blob/master/Week_04/BFS%20%E4%BB%A3%E7%A0%81%E6%A8%A1%E7%89%88.md)
 
 
 
