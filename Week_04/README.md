@@ -1,6 +1,6 @@
 # Week 04 学习笔记
 
-👉 week 01 [code](https://github.com/Gamig0/algorithm008-class01/tree/master/Week_04/week04code)
+👉 [week 01 code](https://github.com/Gamig0/algorithm008-class01/tree/master/Week_04/week04code)
 
 👉 [每日一题](https://github.com/Gamig0/algorithm008-class01/tree/master/Week_04/week04code/daily)
 
