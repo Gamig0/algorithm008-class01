@@ -1,6 +1,8 @@
 # Week03 学习笔记
 
-**每日一题**
+👉 [week 03 code](https://github.com/Gamig0/algorithm008-class01/tree/master/Week_03/week03code)
+
+👉 [**每日一题**](https://github.com/Gamig0/algorithm008-class01/tree/master/Week_02/week02code/daily)
 
 ## 递归思路：
 
@@ -19,19 +21,5 @@
 
 
 
-## 实战题目
-
-| 题目                                                         | 题解 |
-| ------------------------------------------------------------ | ---- |
-| [70.爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) |      |
-| [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/) |      |
-| [50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)    |      |
-| [78. 子集](https://leetcode-cn.com/problems/subsets/)        |      |
 
 
-
-- https://leetcode-cn.com/problems/invert-binary-tree/description/
-- https://leetcode-cn.com/problems/validate-binary-search-tree
-- https://leetcode-cn.com/problems/maximum-depth-of-binary-tree
-- https://leetcode-cn.com/problems/minimum-depth-of-binary-tree
-- https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
