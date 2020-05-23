@@ -11,3 +11,4 @@
 | 04-18 | [917. 仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters/) | 栈               | [完成](https://leetcode-cn.com/problems/reverse-only-letters/) |
 | 04-19 | [面试题50. 第一个只出现一次的字符](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) | -                | [完成](https://github.com/Gamig0/algorithm008-class01/blob/master/Week_01/week01code/daily/FirstUniqChar.java) |
 
+day1 ~ day7
