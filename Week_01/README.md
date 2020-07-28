@@ -1,8 +1,8 @@
 # Week01 学习笔记
 
-👉 [**week 01 code**](https://github.com/Gamig0/algorithm008-class01/tree/master/Week_01/week01code)
+👉 [**week 01 code**](./week01code)
 
-👉 [**每日一题**](https://github.com/Gamig0/algorithm008-class01/tree/master/Week_01/week01code/daily)
+👉 [**每日一题**](./week01code/daily)
 
 
 
@@ -19,6 +19,8 @@
 
 
 ### Java 中 ArrayList 和 LinkedList 对比
+
+Java 中的 ArrayList 底层实现是数组，LinkedList 底层实现是链表。
 
 ArrayList 和 LinkedList 新增或删除元素操作测试从集合头部、中间位置以及尾部位置新增元素消耗的时间
 
@@ -41,7 +43,7 @@ LinkedList 的 for 循环性能是最差的，而 ArrayList 的 for 循环性能
 
 当你对以上两个集合使用 foreach 进行遍历时，如果在遍历对过程中直接使用集合的 remove 方法会引发 ConcurrentModificationException（并发修改异常）。 这是因为 foreach 循环是 Java 8 出现的语法糖，集合使用这个语法糖会被解释成迭代器，而集合内部又一个 int 类型的属性 modCount 用来记录 集合修改次数；迭代器内部保存了一个 expectedModCount 记录集合期望修改的次数。如果遍历过程中对集合进行修改会导致集合的 modCount 改变，没有同步给 expectedModCount 进而导致 modCount != expectedModCount，引发异常。  所以遍历时想要修改元素要使用 iterator 中的 remove方法。
 
-[参考极客时间专栏](https://time.geekbang.org/column/article/98145)
+参考：[极客时间专栏「ArrayList还是LinkedList？使用不当性能差千倍」](https://time.geekbang.org/column/article/98145)
 
 
 
